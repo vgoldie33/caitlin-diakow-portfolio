@@ -14,6 +14,7 @@ Add the Google Fonts you want, remove the ones you don't.
 @import url('https://fonts.googleapis.com/css2?family=Eczar:wght@400;500;600;700;800&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+  @import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;700&family=Poppins:ital,wght@1,300;1,500;1,600&display=swap');
 
 
 /*
@@ -34,6 +35,7 @@ Imported stylesheets. Remove the ones you do not want to use.
 @import url('stroke-shadow.css');
 @import url('scroll-to-top.css');
 @import url('project-page-colors.css');
+
 /*
 
 X-Small devices (portrait phones, less than 576px) 
@@ -74,14 +76,14 @@ html {
 :root {
   --primary-text-color: #222;
   --holding-page-title-color: #ebedf0;
-  --accent-color: #5200FF;
-  --overlay-color: #5200FF;
+  --accent-color: #cc8fa6;
+  --overlay-color: #cc8fa6;
   --hyperlink-color: #444;
   --hyperlink-alternate-color: orangered;
   --hover-color: #111;
   --body-typeface: "Inter", sans-serif;
-  --heading-typeface: 'Eczar', serif;
-  --project-title-typeface: 'Eczar', serif;
+  --heading-typeface: 'Alkatra', serif;
+  --project-title-typeface: 'Alkatra', serif;
   --project-title-color: #723850;
   --heart-color: darkred;
   --off-white: #f8f8ff;
@@ -271,7 +273,7 @@ p {
 }
 
 .logo {
-  width: 3rem;
+  width: 7rem;
 }
 
 .hero-headline-wrapper {
@@ -724,7 +726,7 @@ a.sub-navigation-link:hover {background: var(--accent-color); color: var(--flora
   }
 
   .logo {
-    width: 5rem;
+    width: 10rem;
   }
 
   .hero {

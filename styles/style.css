@@ -78,8 +78,8 @@ html {
   --holding-page-title-color: #ebedf0;
   --accent-color: #cc8fa6;
   --overlay-color: #cc8fa6;
-  --hyperlink-color: #444;
-  --hyperlink-alternate-color: orangered;
+  --hyperlink-color: #35845d;
+  --hyperlink-alternate-color: #b50079;
   --hover-color: #111;
   --body-typeface: "Inter", sans-serif;
   --heading-typeface: 'Alkatra', serif;
@@ -176,8 +176,8 @@ h4 {
 
 /* Hyperlink Styles */
 
-a:link    { color: var(--hyperlink-color); text-decoration: none;}
-a:visited { color: var(--hyperlink-color); }
+a:link    { color: var(--hyperlink-color); text-decoration: underline;}
+a:visited { color: var(--hyperlink-alternate-color); }
 a:hover   { color: var(--hover-color); text-decoration: underline; }
 a:focus   { outline: 1px solid var(--accent-color); }
 a:active  { color: var(--hover-color); /* Tap on mobile */ }
@@ -225,14 +225,12 @@ p {
 }
 
 .footer-nav-item {
+  color: #35845d;
+  text-decoration: underline;
   line-height: 1.3;
 }
 
-.award-item {
-  line-height: 1.3;
-}
-
-.social-item {
+.award-item, .social-item {
   line-height: 1.3;
 }
 
@@ -468,6 +466,11 @@ p {
 }
 
 .awards-list {margin-bottom: 2rem;}
+
+.hyperlink {
+  color: #35845d;
+  text-decoration: underline;
+}
 
 
 /* Project Page 
@@ -720,10 +723,6 @@ p:last-of-type {
 
 .description {
   line-height: 2em;
-}
-
-.link {
-  color: #35845d;
 }
 
 /* desktop styles */

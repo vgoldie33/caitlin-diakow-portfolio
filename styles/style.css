@@ -74,7 +74,7 @@ html {
 */
 
 :root {
-  --primary-text-color: #222;
+  --primary-text-color: rgb(58, 99, 118);
   --holding-page-title-color: #ebedf0;
   --accent-color: #cc8fa6;
   --overlay-color: #cc8fa6;
@@ -171,7 +171,12 @@ h3 {
 }
 
 h4 {
-  color: var(--baby-powder);
+  color: var(--project-title-color);
+  font-weight: 600;
+}
+
+.highlighted-poetry-line {
+  color:#b50079;
 }
 
 /* Hyperlink Styles */

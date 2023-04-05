@@ -385,6 +385,12 @@ p {
   /* Required to contain overlay size */
 }
 
+.work-page-grid-item-stretch {
+  width: 900px;
+  height: 300px;
+  position: relative;
+}
+
 /* Overlay */
 .overlay, 
 .overlay-2 {

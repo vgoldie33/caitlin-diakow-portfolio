@@ -79,12 +79,12 @@ html {
   --accent-color: #cc8fa6;
   --overlay-color: #cc8fa6;
   --hyperlink-color: #35845d;
-  --hyperlink-alternate-color: #b50079;
-  --hover-color: #111;
+  --hyperlink-alternate-color: #24573d;
+  --hover-color:#b50079;
   --body-typeface: "Inter", sans-serif;
   --heading-typeface: 'Alkatra', serif;
   --project-title-typeface: 'Alkatra', serif;
-  --project-title-color: #723850;
+  --project-title-color: #b50079;
   --heart-color: darkred;
   --off-white: #f8f8ff;
   --isabelline: #f4f0ec;
@@ -94,7 +94,7 @@ html {
   --floral-white: #fffaf0;
   --background-color: #f5f5f5;
   --alt-background-color: black;
-  --text-selection-background-color: #555;
+  --text-selection-background-color: #3b4144;
 }
 
 
@@ -144,6 +144,11 @@ h1 {
 
 .hero-headline {color: var(--overlay-color);}
 
+.hero-header, .hero-footer {
+  font-size: 2rem;
+  font-family: var(--heading-typeface);
+}
+
 .project-title {
   font-size: 3rem;
   font-family: var(--project-title-typeface);
@@ -179,6 +184,18 @@ h4 {
   color:#b50079;
 }
 
+.sub-heading {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.place, .date, .title, .sub-heading, .resume-header {
+  color: #3b4144;
+  font-family: 'Noto Sans Display', sans-serif;
+}
+
+
+
 /* Hyperlink Styles */
 
 a:link    { color: var(--hyperlink-color); text-decoration: underline;}
@@ -193,15 +210,20 @@ a:active  { color: var(--hover-color); /* Tap on mobile */ }
 
 .navigation-arrow:link {
   -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: #555555;
+  -webkit-text-stroke-color: #3b4144;
   color: transparent;
 }
 
-.navigation-arrow:active,
-.navigation-arrow:hover {
+.navigation-arrow:active {
   color: var(--accent-color);
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: var(--accent-color);
+}
+
+.navigation-arrow:hover {
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #b50079;
+  color: transparent;
 }
 
 .colored-link {
@@ -267,10 +289,6 @@ p {
   min-height: 80vh;
   display: flex;
   flex-direction: column;
-}
-
-.hero-header {
-  font-size: 2rem;
 }
 
 

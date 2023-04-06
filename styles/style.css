@@ -418,8 +418,6 @@ p {
   opacity: .8;
 }
 
-
-
 /* 
 
  █████  ██████   ██████  ██    ██ ████████ 
@@ -752,8 +750,6 @@ p:last-of-type {
 .title {
   line-height: 1.7em;
 }
-
-
 
 .description {
   line-height: 2em;

@@ -63,6 +63,13 @@ html {
   box-sizing: inherit;
 }
 
+.grid-stretch {
+  justify-content: center;
+  object-fit:scale-down;
+  min-width: 100px;
+  max-width: 3000px;
+}
+
 /* Use variable for to easily change your theme's colour scheme and typography.
 
 ██    ██  █████  ██████  ██  █████  ██████  ██      ███████ ███████ 
@@ -386,8 +393,8 @@ p {
 }
 
 .work-page-grid-item-stretch {
-  width: 900px;
-  height: 300px;
+  width: 307%;
+  height: auto;
   position: relative;
 }
 

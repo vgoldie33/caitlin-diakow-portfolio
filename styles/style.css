@@ -14,7 +14,7 @@ Add the Google Fonts you want, remove the ones you don't.
 @import url('https://fonts.googleapis.com/css2?family=Eczar:wght@400;500;600;700;800&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
-  @import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;700&family=Poppins:ital,wght@1,300;1,500;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;700&family=Poppins:ital,wght@1,300;1,500;1,600&display=swap');
 
 
 /*
@@ -54,7 +54,7 @@ No media query for `xs` since this is the default in Bootstrap
 html {
   box-sizing: border-box;
   scroll-behavior: smooth;
-  cursor: url("../assets/temp/up-cursor.png"), auto !important;
+  cursor: url("../assets/illustrations/butterfly-gif-transparent-background.gif"), auto !important;
 }
 
 *,
@@ -74,7 +74,7 @@ html {
 */
 
 :root {
-  --primary-text-color: rgb(58, 99, 118);
+  --primary-text-color: #3a6376;
   --holding-page-title-color: #ebedf0;
   --accent-color: #cc8fa6;
   --overlay-color: #cc8fa6;

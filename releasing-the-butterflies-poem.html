@@ -2,10 +2,11 @@
 <html lang="en">
 
 <head>
-  <title>Free Creative Portfolio Template: February 2023 Version | Project Page (Clean Version)</title>
-  <meta name="description" content="When writing a meta description, keep it between 140 and 160 characters so Google can display your entire message. Don’t forget to include your keyword!">
+  <title>An Ode to Someone I'd Started to Love | V. Goldie Designs</title>
+  <meta name="description"
+    content="When writing a meta description, keep it between 140 and 160 characters so Google can display your entire message. Don’t forget to include your keyword!">
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
   <link rel="stylesheet" href="./styles/style.css">
@@ -15,30 +16,38 @@
   <header class="hero-header">
     <ul class="branding-navigation">
       <li><a href="work.html" class="custom-navigation">Work</a></li>
-      <li class="logo"><a href="index.html"><img src="https://assets.codepen.io/316293/tools.svg" /></a></li>
+      <li class="logo"><a href="index.html"><img src="assets/illustrations/vgoldie-logo.gif" /></a></li>
       <li><a href="about.html" class="custom-navigation">About</a></li>
     </ul>
   </header>
-  <div class="project-wrapper">
+<div class="project-wrapper">
     <aside class="project-aside">
       <div class="project-info">
-        <h1 class="project-title">Your Project Title</h1>
-        <p class="project-description">A brief description of your project goes here. This is the clean version with simpler colours. If you want to use this, delete project-1.html and project-page-colors.css</p>
+        <h3 class="project-title">Releasing the Butterflies (The Poem)</h3>
+        <p class="project-description">This poem is in my Releasing the Butterflies digital illustration.</p>
+        <p><a href="releasing-the-butterflies.html">See the digital illustration</a></p>
+        <p><a href="poetry.html">See more of my poetry</a></p>
     </div>
       <ul class="project-navigation">
-        <li class="arrow"><a href="project-1.html" class="navigation-arrow"><i class="fas fa-arrow-left fa-2x"></i></a></li>
+        <li class="arrow"><a href="project-1.html" class="navigation-arrow"><i class="fas fa-arrow-left fa-2x"></i></a>
+        </li>
         <li class="arrow"><a href="#" class="navigation-arrow"><i class="fas fa-arrow-right fa-2x"></i></a></li>
       </ul>
     </aside>
-    <main class="project-details">
-      <div class="project-image">🐸</div>
-      <div class="project-image">🌼</div>
-      <div class="project-image">🌵</div>
-      <div class="project-image">✨</div>
-      <div class="project-image">🕷</div>
+    <main class="poem">
+    <div><p>I kept those butterflies captive</p>
+        <p>Until they no longer fluttered</p>
+        <p>& so I became numb</p>
+        <p>To the real experience</p>
+        <p>Of what love is about.</p>
+        <p>Today I release them</i></p>
+        <p>In the hopes that</p>
+        <p>The right ones return</p>
+        <p>If they so choose.</p>
+        </div>
     </main>
-  </div>
-  <ul class="global-footer">
+</div>
+<ul class="global-footer">
     <li class="footer-item-1">
       <h2>About the Artist</h2>
       <p>I’m an artist in many mediums, with a strong focus on expanding my work digitally. My paintings and poetry are
@@ -49,12 +58,6 @@
         which I leave open for interpretation. I believe that expressing my life story through cryptic and abstract
         means can become cathartic for others in their own life, by allowing them to relate to specific phrases and
         symbols in my work.
-      </p>
-      <p>"Can you find the <a href="experiments.html" class="colored-link">easter eggs</a> 🥚🥚🥚? Feel
-        free to make this your own by adding your own logo, custom typography, colours, custom hover states, custom
-        cursors, <a href="javascript:void(0)" class="toggleGhost colored-link" id="btnGhost value=" Hide Ghost"
-          onclick="ShowHideDiv(this)">making something
-          randomly fly across the screen</a>, animated gradients, animated GIFs, or even super crisp animated SVGs.""
       </p>
     </li>
     <li class="footer-item-2">
@@ -90,21 +93,23 @@
         James Neufeld.</p>
     </li>
   </ul>
-  
-  <div id="myID" class="bottomMenu hide"><a href="project-1.html">Previous Project</a></div> 
- 
+
+  <div id="myID" class="bottomMenu hide"><a href="project-1.html">Previous Project</a></div>
+
   <script type="text/javascript">
     myID = document.getElementById("myID");
-  
-  var myScrollFunc = function () {
+
+    var myScrollFunc = function () {
       var y = window.scrollY;
       if (y >= 800) {
-          myID.className = "bottomMenu show"
+        myID.className = "bottomMenu show"
       } else {
-          myID.className = "bottomMenu hide"
+        myID.className = "bottomMenu hide"
       }
-  };
-  
-  window.addEventListener("scroll", myScrollFunc);</script> 
+    };
+
+    window.addEventListener("scroll", myScrollFunc);
+  </script>
 </body>
+
 </html>

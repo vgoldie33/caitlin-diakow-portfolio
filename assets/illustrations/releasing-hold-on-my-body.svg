@@ -151,24 +151,21 @@
       <stop offset=".8" stop-color="#b78a64"/>
       <stop offset=".99" stop-color="#b68864"/>
     </linearGradient>
-    <linearGradient id="linear-gradient-2" x1="650.6" y1="971.85" x2="641.95" y2="971.85" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#fff"/>
-      <stop offset=".99" stop-color="#333"/>
-    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="650.6" x2="641.95" xlink:href="#linear-gradient"/>
     <linearGradient id="linear-gradient-3" x1="656.28" y1="973.22" x2="676" y2="973.22" xlink:href="#linear-gradient"/>
-    <linearGradient id="linear-gradient-4" x1="676.13" y1="973.22" x2="656.16" y2="973.22" xlink:href="#linear-gradient-2"/>
+    <linearGradient id="linear-gradient-4" x1="676.13" y1="973.22" x2="656.16" y2="973.22" xlink:href="#linear-gradient"/>
     <linearGradient id="linear-gradient-5" x1="674.87" y1="973.95" x2="684.99" y2="973.95" xlink:href="#linear-gradient"/>
-    <linearGradient id="linear-gradient-6" x1="685.12" y1="973.95" x2="674.74" y2="973.95" xlink:href="#linear-gradient-2"/>
+    <linearGradient id="linear-gradient-6" x1="685.12" y1="973.95" x2="674.74" y2="973.95" xlink:href="#linear-gradient"/>
     <linearGradient id="linear-gradient-7" x1="685.61" y1="968.86" x2="694.96" y2="968.86" xlink:href="#linear-gradient"/>
-    <linearGradient id="linear-gradient-8" x1="695.09" y1="968.86" x2="685.49" y2="968.86" xlink:href="#linear-gradient-2"/>
+    <linearGradient id="linear-gradient-8" x1="695.09" y1="968.86" x2="685.49" y2="968.86" xlink:href="#linear-gradient"/>
     <linearGradient id="linear-gradient-9" x1="691.79" y1="967.93" x2="709.69" y2="967.93" xlink:href="#linear-gradient"/>
-    <linearGradient id="linear-gradient-10" x1="709.82" y1="967.93" x2="691.66" y2="967.93" xlink:href="#linear-gradient-2"/>
+    <linearGradient id="linear-gradient-10" x1="709.82" y1="967.93" x2="691.66" y2="967.93" xlink:href="#linear-gradient"/>
     <linearGradient id="linear-gradient-11" x1="706.48" y1="975.02" x2="714.45" y2="975.02" xlink:href="#linear-gradient"/>
-    <linearGradient id="linear-gradient-12" x1="714.57" y1="975.02" x2="706.36" y2="975.02" xlink:href="#linear-gradient-2"/>
+    <linearGradient id="linear-gradient-12" x1="714.57" y1="975.02" x2="706.36" y2="975.02" xlink:href="#linear-gradient"/>
     <linearGradient id="linear-gradient-13" x1="713" y1="975.02" x2="723.99" y2="975.02" xlink:href="#linear-gradient"/>
-    <linearGradient id="linear-gradient-14" x1="724.11" y1="975.02" x2="712.87" y2="975.02" xlink:href="#linear-gradient-2"/>
+    <linearGradient id="linear-gradient-14" x1="724.11" y1="975.02" x2="712.87" y2="975.02" xlink:href="#linear-gradient"/>
     <linearGradient id="linear-gradient-15" x1="712.5" y1="959.03" x2="715.13" y2="959.03" xlink:href="#linear-gradient"/>
-    <linearGradient id="linear-gradient-16" x1="715.25" y1="959.03" x2="712.37" y2="959.03" xlink:href="#linear-gradient-2"/>
+    <linearGradient id="linear-gradient-16" x1="715.25" y1="959.03" x2="712.37" y2="959.03" xlink:href="#linear-gradient"/>
     <linearGradient id="linear-gradient-17" x1="311.96" y1="109.57" x2="469.36" y2="109.57" xlink:href="#linear-gradient"/>
     <linearGradient id="linear-gradient-18" x1="64.92" y1="266.88" x2="703.08" y2="266.88" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#333"/>

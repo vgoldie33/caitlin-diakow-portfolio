@@ -302,7 +302,7 @@ p {
 .branding-navigation {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   padding: 1rem;
   align-items: center;
 }
@@ -621,6 +621,7 @@ p {
 
 .holding-page-title {
   font-size: 1.5rem;
+  justify-content: center;
   color: var(--holding-page-title-color);
 }
 
@@ -637,6 +638,16 @@ p {
   margin-bottom: 0;
 }
 
+.branding-navigation-index {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 1rem;
+  align-items: center;
+  position:-webkit-sticky;
+  background:
+ rgb(58, 99, 118)
+}
 
 
 /*
@@ -1012,7 +1023,7 @@ a.sub-navigation-link:hover {background: var(--accent-color); color: var(--flora
   /* Sidebar on Large Devices */
   .project-aside {
     width: 35%;
-    height: 65vh;
+    /* height: 65vh; */
     /* position: -webkit-sticky; */
     /* position: sticky; */
     /* top: 5vh; */

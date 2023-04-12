@@ -1013,9 +1013,9 @@ a.sub-navigation-link:hover {background: var(--accent-color); color: var(--flora
   .project-aside {
     width: 35%;
     height: 65vh;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 5vh;
+    /* position: -webkit-sticky; */
+    /* position: sticky; */
+    /* top: 5vh; */
     padding-right: 2rem;
   }
 

@@ -86,8 +86,8 @@ html {
   --accent-color: #cc8fa6;
   --overlay-color: #cc8fa6;
   --hyperlink-color: #35845d;
-  --hyperlink-color-2: #b50079;
   --hyperlink-alternate-color: #24573d;
+  --hyperlink-alternate-color-2: #cc8fa6;
   --hover-color:#b50079;
   --body-typeface: "Inter", sans-serif;
   --heading-typeface: 'Alkatra', serif;
@@ -213,6 +213,7 @@ a:hover   { color: var(--hover-color); text-decoration: underline; }
 a:focus   { outline: 1px solid var(--accent-color); }
 a:active  { color: var(--hover-color); /* Tap on mobile */ }
 
+
 .navigation-arrow {
   color: var(--alt-background-color);
 }
@@ -235,8 +236,34 @@ a:active  { color: var(--hover-color); /* Tap on mobile */ }
   color: transparent;
 }
 
+.navigation-arrow-2 {
+  color: var(--hyperlink-alternate-color-2);
+}
+
+.navigation-arrow-2:link {
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #f5f5f5;
+  color: transparent;
+}
+
+.navigation-arrow-2:active {
+  color: var(--accent-color);
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: var(--accent-color);
+}
+
+.navigation-arrow-2:hover {
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #b50079;
+  color: transparent;
+}
+
 .colored-link {
-  color: var(--hyperlink-alternate-color);
+  color: var(--hyperlink-alternate-color-2);
+}
+
+.colored-link-2 {
+  color: var(--hyperlink-alternate-color-2)
 }
 
 .custom-navigation:hover {
@@ -280,6 +307,10 @@ p {
   font-size: 1.25rem;
   line-height: 1.3;
   margin-bottom: 1rem;
+}
+
+.arrow-2 {
+  color:#b50079;
 }
 
 
@@ -548,11 +579,6 @@ p {
 
 .arrow {
   padding: 1rem;
-}
-
-.arrow-2 {
-  padding: 1rem;
-  color: var(--hyperlink-color-2)
 }
 
 .project-image-container {

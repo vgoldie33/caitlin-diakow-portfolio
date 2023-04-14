@@ -86,6 +86,7 @@ html {
   --accent-color: #cc8fa6;
   --overlay-color: #cc8fa6;
   --hyperlink-color: #35845d;
+  --hyperlink-color-2: #b50079;
   --hyperlink-alternate-color: #24573d;
   --hover-color:#b50079;
   --body-typeface: "Inter", sans-serif;
@@ -161,6 +162,7 @@ h1 {
   font-family: var(--project-title-typeface);
   color: var(--project-title-color);  
   margin-bottom: 1rem;
+  padding: 1rem;
 }
 
 .overlay-title, 
@@ -367,7 +369,7 @@ p {
 /* Padding around work grid and project page */
 .portfolio,
 .project-wrapper {
-  padding: .25rem;
+  padding: 2rem;
 }
 
 /* Defining the work page grid */
@@ -545,7 +547,12 @@ p {
 }
 
 .arrow {
-  padding: 0;
+  padding: 1rem;
+}
+
+.arrow-2 {
+  padding: 1rem;
+  color: var(--hyperlink-color-2)
 }
 
 .project-image-container {
@@ -584,9 +591,13 @@ p {
 .project-details {
   width: 100%;
   padding: 1rem;
+  margin-bottom: 1rem;
 }
 
-
+.image-svg-xml {
+  margin-top:3rem;
+  margin-bottom: 3rem;
+}
 
 
 

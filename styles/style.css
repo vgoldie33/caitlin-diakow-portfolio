@@ -756,6 +756,7 @@ p:last-of-type {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-bottom: 2rem;
 }
 
 .job-objective-header {
@@ -1092,7 +1093,9 @@ a.sub-navigation-link:hover {background: var(--accent-color); color: var(--flora
     padding-right: 1rem;
   }
 
-
+  .video {
+    padding: 2rem;
+  }
 }
 
 

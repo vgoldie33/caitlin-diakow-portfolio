@@ -148,6 +148,11 @@ h1 {
 .hero-header, .hero-footer {
   font-size: 2rem;
   font-family: var(--heading-typeface);
+}
+
+.hero-header-work {
+  font-size: 2rem;
+  font-family: var(--heading-typeface);
   padding: 2rem;
 }
 

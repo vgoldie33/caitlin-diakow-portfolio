@@ -57,6 +57,18 @@ html {
   cursor: url("../assets/illustrations/unicorn-horn-mouse.png"), auto !important;
 }
 
+.nav-items {
+  font-size: medium;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.video {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
 *,
 *:before,
 *:after {
@@ -150,7 +162,7 @@ h1 {
   font-family: var(--heading-typeface);
 }
 
-.hero-header-work {
+.hero-header-work, .hero-footer-work {
   font-size: 2rem;
   font-family: var(--heading-typeface);
   padding: 2rem;
@@ -598,25 +610,31 @@ p {
   padding: 3rem;
 }
 
-.video {
-  margin-top:1rem;
-}
-
 
 /* Main Project Image Area */
 
-.project-details {
+.project-details, {
   width: 100%;
   padding: 1rem;
   margin-bottom: 1rem;
+}
+
+.video {
+  width: 100%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-right: 2rem;
+}
+
+.iframe {
+  width: inherit;
+  height: 420px;
 }
 
 .image-svg-xml {
   margin-top:3rem;
   margin-bottom: 3rem;
 }
-
-
 
 /* 
 
@@ -1078,10 +1096,6 @@ a.sub-navigation-link:hover {background: var(--accent-color); color: var(--flora
 
   .arrow {
     padding-right: 1rem;
-  }
-
-  .video {
-    padding: 2rem;
   }
 }
 

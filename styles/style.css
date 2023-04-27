@@ -155,7 +155,10 @@ h1 {
   color: var(--baby-powder);
 }
 
-.hero-headline {color: var(--overlay-color);}
+.hero-headline {
+  color: var(--alice-blue);
+  font-size: xx-large;
+}
 
 .hero-header, .hero-footer {
   font-size: 2rem;

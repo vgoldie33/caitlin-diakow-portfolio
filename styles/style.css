@@ -230,6 +230,8 @@ h4 {
 
 
 
+
+
 /* Hyperlink Styles */
 
 a:link {
@@ -710,6 +712,25 @@ input[type=submit]:hover {
   align-items: center;
   justify-content: center;
   margin-bottom: 1rem;
+}
+
+.example-image-container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: right;
+}
+
+.example-image {
+  width: 40%;
+  font-size: 12rem;
+  min-height: 20vh;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  margin-right: 3rem;
+  margin-left: 3rem;
 }
 
 .text-section {

@@ -96,6 +96,7 @@ html {
   --hover-color: #3a6376;
   --body-typeface: "Inter", sans-serif;
   --heading-typeface: 'Alkatra', serif;
+  --subheading-typeface: 'Alkatra', serif;
   --project-title-typeface: 'Alkatra', serif;
   --project-title-color: #b50079;
   --heart-color: darkred;
@@ -208,6 +209,25 @@ h4 {
 
 .highlighted-line {
   color: #b50079;
+}
+
+.highlighted-line-2 {
+  color: #b50079;
+  font-weight: 1000;
+}
+
+.enhanced-line-1 {
+  font-size: 2rem;
+  font-family: var(--subheading-typeface);
+  color: #b50079;
+  margin-bottom: 2rem;
+  line-height: .5;
+}
+
+.enhanced-line-2 {
+  font-size: 1.6rem;
+  font-family: var(--subheading-typeface);
+  color: var(--project-title-color);
 }
 
 .color-2 {

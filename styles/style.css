@@ -35,6 +35,7 @@ Imported stylesheets. Remove the ones you do not want to use.
 @import url('stroke-shadow.css');
 @import url('scroll-to-top.css');
 @import url('project-page-colors.css');
+@import url('animated-gradient-blog.css');
 
 /*
 
@@ -754,7 +755,9 @@ input[type=submit]:hover {
 }
 
 .text-section {
+  margin-top: 5rem;
   width: 100%;
+  padding: 3rem;
 }
 
 .project-text {

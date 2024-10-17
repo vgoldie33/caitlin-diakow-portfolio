@@ -1,0 +1,27 @@
+:root {
+    --gradient-3: linear-gradient(180deg, #cc8fa6, #9fccf3, #b50079);
+}
+
+.gradient-animation-blog {
+    background-size: 600%;
+    background-image: var(--gradient-3);
+    animation: bg-animation 10s infinite alternate;
+}
+
+@keyframes bg-animation {
+    0% {
+        background-position: 0;
+    }
+    100% {
+        background-position: 100%;
+    }
+}
+
+@keyframes bg-animation {
+    0% {
+        background-position: 0;
+    }
+    100% {
+        background-position: 100%;
+    }
+}

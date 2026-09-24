@@ -17,6 +17,10 @@ body {
   h5,
   h6 {
     text-align: left;
+  }
+
+  .business-font,
+  .business-title {
     padding-left: 15rem;
     padding-right:3rem;
   }
